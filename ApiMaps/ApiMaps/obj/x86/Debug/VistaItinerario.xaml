@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="ApiMaps.VistaItinerario"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ApiMaps"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#333333">
+        <ScrollViewer Height="Auto" VerticalScrollMode="Enabled">
+            <TextBlock x:ConnectionId='2' x:Name="rutaP" HorizontalAlignment="Left" Margin="10,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Width="340" Height="571"/>
+        </ScrollViewer>
+
+        <Button x:ConnectionId='1' x:Name="verItinerario"                      HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Height="54"  Foreground="#FFB63939" Background="#333333">
+            <Image Source="Assets/Back/LargeTile.scale-400.png" Margin="-43,-30,-34,-31"/>
+        </Button>
+
+    </Grid>
+</Page>
+
